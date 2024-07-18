@@ -4,9 +4,10 @@ function domLevel(elementId) {
 	let cnt=0;
 	while(element){
 		cnt++;
-		element=element.parentElement
+		element=element.parentElement;
 	}
+	alert(`The level of the element is:${cnt}`);
 	
 }
-const getLevel=domLevel('level');
-alert(`The level of the element is:${getLevel}`);
+domLevel('level');
+
