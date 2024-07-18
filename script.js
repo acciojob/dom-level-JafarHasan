@@ -6,7 +6,7 @@ function domLevel(elementId) {
 		cnt++;
 		element=element.parentElement;
 	}
-	alert(`The level of the element is:${cnt}`);
+	alert("The level of the element is: "+cnt);
 	
 }
 domLevel('level');
